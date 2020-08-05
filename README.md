@@ -10,14 +10,6 @@ Ref https://groups.google.com/d/msg/kogito-development/N9SVCy_y1U4/aAZwm57oBAAJ
      mvn clean package quarkus:dev
     ```
 
-- Native Image (requires JAVA_HOME to point to a valid GraalVM)
-
-    ```
-    mvn clean package -Pnative
-    ```
-  
-  native executable (and runnable jar) generated in `target/`
-
 # Developing
 
 Add your business assets resources (process definition, rules, decisions) into src/main/resources.
