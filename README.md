@@ -1,3 +1,5 @@
+Ref https://groups.google.com/d/msg/kogito-development/N9SVCy_y1U4/aAZwm57oBAAJ
+
 # org.kie.kogito.kogito-quarkus-archetype - 0.13.0 #
 
 # Running
@@ -15,16 +17,6 @@
     ```
   
   native executable (and runnable jar) generated in `target/`
-
-# Test your application
-
-Generated application comes with sample test process that allows you to verify if the application is working as expected. Simply execute following command to try it out
-
-```sh
-curl -d '{}' -H "Content-Type: application/json" -X POST http://localhost:8080/greetings
-```
-
-Once successfully invoked you should see "Hello World" in the console of the running application.
 
 # Developing
 
